@@ -26,10 +26,10 @@ void rewriteGridFromNode(grid::Grid* grid, node::Node* node, std::optional<std::
     // list for later so that the function does not reset the edited coordinates
     // create the list
     if (editedCoordinates == std::nullopt) {
-        std::vector editedCoordinates = {std::make_pair(node->coordinates.first, node->coordinates.second)};
+        editedCoordinates = std::vector<std::pair<int, int>> {node->coordinates};
     }
     // list already exists, so add the current coordinates to the list
-    else (editedCoordinates) {
+    else {
         editedCoordinates->push_back(std::make_pair(node->coordinates.first, node->coordinates.second));
     }
 
@@ -44,7 +44,7 @@ void rewriteGridFromNode(grid::Grid* grid, node::Node* node, std::optional<std::
             for (int j = 0; j < grid->size; j++) {
                 // is the pair in the list of coordinates to not reset?
                 auto iterator = std::find(editedCoordinates.begin(), editedCoordinates.end(), std::make_pair(i, j));
-                if (iterator != editedCoordinates.end()) {
+                if (iterator == editedCoordinates.end()) {
                     grid->set(i, j, 0);
                 }
             }
