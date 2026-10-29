@@ -1,0 +1,160 @@
+<mxfile host="drawio-plugin" modified="2026-10-26T17:59:10.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="22.1.22" etag="QZO0HY9pG-WzvCDzhl-H" type="embed">
+  <diagram name="Page-1" id="IVZEnVE7gt2VGAFcaaBh">
+    <mxGraphModel dx="943" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v_OttHTN87Ska696NRy9-1" value="&#xa;&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-0cebf61f-7fff-19a0-7f7a-6148c7d0d678&quot;&gt;&lt;span style=&quot;font-size:20pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;J-N Queens Algorithm&lt;/span&gt;&lt;/b&gt;&#xa;&#xa;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="50" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-3" target="v_OttHTN87Ska696NRy9-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-3" value="start" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-5" target="v_OttHTN87Ska696NRy9-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-5" value="get n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-10" target="v_OttHTN87Ska696NRy9-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-7" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-6" connectable="0" vertex="1">
+          <mxGeometry x="0.0024" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-9" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-8" connectable="0" vertex="1">
+          <mxGeometry x="-0.1525" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-10" value="S(n) &amp;lt; 0" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-12" target="v_OttHTN87Ska696NRy9-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-12" value="output no solutions" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-13" value="terminate" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="430" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-18" target="v_OttHTN87Ska696NRy9-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-15" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-14" connectable="0" vertex="1">
+          <mxGeometry x="-0.1241" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-17" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-16" connectable="0" vertex="1">
+          <mxGeometry x="-0.0995" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-18" value="For every number 1 to n inclusive" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-20" target="v_OttHTN87Ska696NRy9-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-20" value="output solution" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-21" value="terminate" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="600" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="v_OttHTN87Ska696NRy9-26" target="v_OttHTN87Ska696NRy9-18" edge="1">
+          <mxGeometry x="-0.069" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="870" />
+              <mxPoint x="30" y="640" />
+            </Array>
+            <mxPoint x="40" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-23" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-22" connectable="0" vertex="1">
+          <mxGeometry x="0.0218" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-26" target="v_OttHTN87Ska696NRy9-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-25" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-24" connectable="0" vertex="1">
+          <mxGeometry x="0.0368" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-26" value="All rows, columns, and diagonals contain the number" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="810" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-30" target="v_OttHTN87Ska696NRy9-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-45" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-27" connectable="0" vertex="1">
+          <mxGeometry x="-0.0615" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-30" target="v_OttHTN87Ska696NRy9-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-42" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" parent="v_OttHTN87Ska696NRy9-41" connectable="0" vertex="1">
+          <mxGeometry x="-0.159" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-30" value="Are there available cells?" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="825" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-32" target="v_OttHTN87Ska696NRy9-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-32" value="Store all possible decisions in a tree" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="415" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-35" target="v_OttHTN87Ska696NRy9-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-35" value="Add number to first available cell" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0000000000001" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-36" value="Try another decision on the tree" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="245" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" parent="1" source="v_OttHTN87Ska696NRy9-37" target="v_OttHTN87Ska696NRy9-30" edge="1">
+          <mxGeometry x="0.0667" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="805" />
+              <mxPoint x="305" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_OttHTN87Ska696NRy9-37" value="Make the cells in the column, row, and diagonal of the cell that was edited unavailable" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="835" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
